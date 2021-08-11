@@ -2,6 +2,7 @@
 Simple music downloader for youtube made in Qt
 
 ![image](Screenshot_20210810-222526.png)
+![preview](Screenshot_20210811-112700.png)
 
 dl-music-qt is a simple application to download music from YouTube
 Using the Qt library and youtube-dl, created for termux x11.
