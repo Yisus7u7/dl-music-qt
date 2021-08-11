@@ -1,0 +1,13 @@
+[Desktop Entry]
+Version=1.0.3
+Type=Application
+Name=dl-music-qt
+GenericName=Music Player
+Comment=Simple music downloader for YouTube
+Icon=music
+Categories=AudioVideo;Audio;AudioDownloader;
+Exec=dl-music-qt
+StartupNotify=true
+Terminal=false
+
+
