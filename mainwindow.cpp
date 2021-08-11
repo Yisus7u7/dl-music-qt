@@ -43,12 +43,13 @@ void MainWindow::on_actionabout_triggered()
 void MainWindow::on_download_clicked()
 {
     ui->label2->setText("wait a moment...");
-
+    QProcess::execute("notify-send -a dl-music-qt \"Downloading Music...\"");
     QString folder = QFileDialog::getExistingDirectory(this, "Open Directory To Save Music");
     QString geturl = ui->entryUrl->text();
     QDir::setCurrent(folder);
     QProcess::execute("youtube-dl --extract-audio --embed-thumbnail --audio-format mp3 " + geturl);
     ui->label2->setText("Download completed.");
+    QProcess::execute("notify-send -a dl-music-qt \"Download Complete.\"");
     //system("youtube-dl bestaudio --extract-audio --embed-thumbnail --audio-format mp3 ");
 }
 

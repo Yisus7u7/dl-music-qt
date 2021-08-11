@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>339</width>
-    <height>200</height>
+    <height>209</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -26,8 +26,7 @@
    <string>dl music qt</string>
   </property>
   <property name="windowIcon">
-   <iconset theme="music">
-    <normaloff>.</normaloff>.</iconset>
+   <iconset theme="audio-x-generic-symbolic"/>
   </property>
   <property name="dockOptions">
    <set>QMainWindow::AllowTabbedDocks|QMainWindow::AnimatedDocks</set>
@@ -93,9 +92,9 @@
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>130</y>
+      <y>140</y>
       <width>278</width>
-      <height>16</height>
+      <height>17</height>
      </rect>
     </property>
     <property name="text">
