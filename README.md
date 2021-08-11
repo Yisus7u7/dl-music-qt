@@ -21,6 +21,6 @@ cd dl-music-qt
 ./install.sh
 ```
 
-install.sh you will install the application on termux x11. install.sh will install the app on termux x11.
+install.sh you will install the application on termux x11. 
 
 Improvements will be added in the future, if you want to contribute I thank you very much. 
