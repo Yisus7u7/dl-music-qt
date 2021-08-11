@@ -12,6 +12,7 @@ Using the Qt library and youtube-dl, created for termux x11.
 - qt5-qtbase >= 5.10
 - ffmpeg
 - youtube-dl
+- libnotify
 
 ## Installation
 
