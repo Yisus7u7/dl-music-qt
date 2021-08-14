@@ -15,7 +15,7 @@ Using the Qt library and youtube-dl, created for termux x11.
 - youtube-dl
 - libnotify
 
-## Installation
+## Installation (in termux)
 
 ```bash
 git clone https://github.com/Yisus7u7/dl-music-qt
@@ -23,7 +23,7 @@ cd dl-music-qt
 ./install.sh
 ```
 
-# Installation (In linux)
+## Installation (in linux)
 
 ```bash
 git clone https://github.com/Yisus7u7/dl-music-qt
