@@ -23,6 +23,19 @@ cd dl-music-qt
 ./install.sh
 ```
 
+# Installation (In linux)
+
+```bash
+git clone https://github.com/Yisus7u7/dl-music-qt
+cd dl-music-qt
+qmake
+make
+```
+
+And run
+
+`./dl-music-qt`
+
 install.sh you will install the application on termux x11. 
 
 Improvements will be added in the future, if you want to contribute I thank you very much. 
